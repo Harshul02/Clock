@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to right, aqua, greenyellow, skyblue);
+      opacity: 0.8;
+  }
+  #clock{  
+      position: relative;
+      margin: auto;
+      height: 40vw;
+      width: 40vw; 
+      background: url(https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.clipartbest.com%2Fpicture-of-a-clock-with-no-hands&psig=AOvVaw0EoLfViZiPQSKvypVEFLQ6&ust=1629133927769000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCICI5fzCs_ICFQAAAAAdAAAAABAD) no-repeat;
+      background-size: 100%;
+  }
+  
+  #hour, #minute, #second{
+      position: absolute;
+      background: black;
+      border-radius: 10px; 
+      transform-origin: bottom;
+  }
+  #hour{
+      width: 1.8%;
+      height: 25%;
+      top: 25%;
+      left: 48.85%;
+      opacity: 0.8;  
+  }
+  #minute{
+      width: 1.6%;
+      height: 30%;
+      top: 19%;
+      left: 48.9%;
+      opacity: 0.8;  
+  }
+  #second{
+      width: 1%;
+      height: 40%;
+      top: 9%;
+      left: 49.25%;
+      opacity: 0.9; 
+      
+  }
